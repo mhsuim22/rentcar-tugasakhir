@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UIM Rent Car - Pembayaran</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1b4ac2;
+        }
+
+        #container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #car-image {
+            float: left;
+            width: 150px;
+            height: 100px;
+            margin-right: 20px;
+        }
+
+        #summary {
+            overflow: hidden;
+        }
+
+        #summary div {
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        #payment-button {
+            float: right;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h2>UIM Rent Car</h2>
+
+        <div id="summary">
+            <img src="1.png" alt="Mobil" id="car-image">
+            
+            <div>
+                <strong>Total Harga:</strong>
+                <span>Rp. 500,000</span>
+            </div>
+
+            <div>
+                <strong>Total Sewa:</strong>
+                <span>3 Hari</span>
+            </div>
+
+            <div>
+                <strong>Tanggal Pengambilan:</strong>
+                <span>01 Februari 2024</span>
+            </div>
+
+            <div>
+                <strong>Tanggal Pengembalian:</strong>
+                <span>04 Februari 2024</span>
+            </div>
+        </div>
+
+        <h2>Instruksi Pembayaran</h2>
+        <p>Silakan lakukan pembayaran sejumlah total harga ke rekening berikut:</p>
+
+        <table>
+            <tr>
+                <th>Bank</th>
+                <td>Nama Bank</td>
+            </tr>
+            <tr>
+                <th>Nomor Rekening</th>
+                <td>Nomor Rekening</td>
+            </tr>
+            <tr>
+                <th>Atas Nama</th>
+                <td>Nama Pemilik Rekening</td>
+            </tr>
+        </table>
+
+        <button id="payment-button">Bayar</button>
+
+        <p>Mohon konfirmasi pembayaran Anda setelah proses pembayaran selesai.</p>
+
+        <p>Terima kasih telah memilih UIM Rent Car!</p>
+    </div>
+
+</body>
+</html>
+
